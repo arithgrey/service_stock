@@ -7,7 +7,7 @@ echo "Running makemigrations and migrate..."
 echo "Running makemigrations and migrate..."
 
 python manage.py makemigrations
-python manage.py makemigrations store share_test user login
+python manage.py makemigrations movements
 python manage.py migrate
 # Inicia el servidor con watchmedo
 echo "Starting the server with watchmedo..."
